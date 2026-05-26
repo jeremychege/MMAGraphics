@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Air Hockey — Pipeline Annotated</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div id="game-wrap">
+  <div id="score-board">
+    <div class="player-score">
+      <span class="player-label">You</span>
+      <span class="score-num p1-color" id="s1">0</span>
+    </div>
+    <span class="vs">VS</span>
+    <div class="player-score">
+      <span class="player-label">CPU</span>
+      <span class="score-num p2-color" id="s2">0</span>
+    </div>
+  </div>
+  <div id="msg">Move your mouse to play!</div>
+  <canvas id="rink" width="480" height="560"></canvas>
+  <div id="controls">Mouse = your paddle &nbsp;|&nbsp; First to 7 wins</div>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
